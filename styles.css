@@ -1,6 +1,26 @@
+
 h1{
 	font-family: arial;
 	font-size: 70px;
+	padding-bottom: 30px;
+}
+
+#options{
+	background-color: #eeeeee;
+	width: 100%;
+}
+
+#options button {
+	background-color: #ddd;
+	width: 200px;
+	line-height: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-top: -0px;
+}
+
+#options button:hover {
+	background-color: #f3f3f3;
 }
 
 #board{
@@ -23,10 +43,24 @@ h1{
 	float: left;
 	font-size: 80px;
 	border: 2px solid #000;
-	color: #fff;
+	height: 180px;
 }
 
 .winning-square{
 	background-color: green !important;
 	color: red !important;
+}
+
+.tie-square{
+	background-color: #aaa !important;
+	color: #999 !important;
+	border: 1px solid #999;
+}
+
+#chooseGame{
+	margin-bottom: -20px;
+}
+
+#reset{
+	display: none;
 }

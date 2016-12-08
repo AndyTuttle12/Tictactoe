@@ -13,25 +13,34 @@
 			<div class="col-sm-12 text-center">
 				<h1>TIC TAC TOE</h1>
 			</div>
+			<div id="options" class="jumbotron">
+				<button id="onePlayer" onclick="onePlayerGame()">Play the Computer</button>
+				<button id="twoPlayer" onclick="twoPlayerGame()">Play With a Friend</button>
+				<button id="reset" onclick="resetGame()">Play Again?</button>
+				<div id="chooseGame">
+					
+				</div>
+			</div>
 			<div id="message" class="col-sm-12 text-center">
-
+			</div>
+			<div id="tieMessage" class="col-sm-12 text-center">
 			</div>
 			<div id="board">
 				<!-- First row, also regular row -->
 				<div class="row-1 board-row">
-					<button id="A1" class="square" onclick="markSquare(this)">A1</button>
-					<button id="B1" class="square" onclick="markSquare(this)">B1</button>
-					<button id="C1" class="square" onclick="markSquare(this)">C1</button>
+					<button id="A1" class="square" onclick="markSquare(this)"> </button>
+					<button id="B1" class="square" onclick="markSquare(this)"> </button>
+					<button id="C1" class="square" onclick="markSquare(this)"> </button>
 				</div>
 				<div class="row-2 board-row">
-					<button id="A2" class="square" onclick="markSquare(this)">A2</button>
-					<button id="B2" class="square" onclick="markSquare(this)">B2</button>
-					<button id="C2" class="square" onclick="markSquare(this)">C2</button>
+					<button id="A2" class="square" onclick="markSquare(this)"> </button>
+					<button id="B2" class="square" onclick="markSquare(this)"> </button>
+					<button id="C2" class="square" onclick="markSquare(this)"> </button>
 				</div>
 				<div class="row-3 board-row">
-					<button id="A3" class="square" onclick="markSquare(this)">A3</button>
-					<button id="B3" class="square" onclick="markSquare(this)">B3</button>
-					<button id="C3" class="square" onclick="markSquare(this)">C3</button>
+					<button id="A3" class="square" onclick="markSquare(this)"> </button>
+					<button id="B3" class="square" onclick="markSquare(this)"> </button>
+					<button id="C3" class="square" onclick="markSquare(this)"> </button>
 				</div>
 				</div>
 			</div>
